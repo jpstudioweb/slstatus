@@ -1,6 +1,7 @@
 
 # Arquivos objeto
 *.o
+components/*.o
 
 # Arquivos binários
 slstatus
