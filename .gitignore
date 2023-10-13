@@ -1,0 +1,14 @@
+
+# Arquivos objeto
+*.o
+
+# Arquivos binários
+slstatus
+
+# Arquivos de backup
+*~
+*.bak
+*.orig
+
+# Arquivos de configuração
+
