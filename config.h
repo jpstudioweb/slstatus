@@ -71,7 +71,7 @@ static const struct arg args[] = {
 	/* { ipv4,            "%s | ", "enp0s25" }, */
   { cpu_perc,	       "󰻠 %s | ",  NULL },
 	{ ram_used,        "󰍛 %s | ",  NULL },
-	{ disk_free,       " %s | ", "/" },
+	{ disk_free,       " %s | ", "/home" },
 	{ datetime,        "  %s",   "%a %b %d - %R" },
 	/* { datetime, "%s | ",           "%F %T" }, */
 };
