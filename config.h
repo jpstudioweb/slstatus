@@ -70,8 +70,9 @@ static const struct arg args[] = {
 	/* { netspeed_tx,     " %s | ",  "enp0s25" }, */
 	/* { ipv4,            "%s | ", "enp0s25" }, */
   { cpu_perc,	       "󰻠 %s | ",  NULL },
-	{ ram_used,        "󰍛 %s | ",  NULL },
-	{ disk_free,       " %s | ", "/home" },
+  { temp,            " %s°C | ", "/sys/class/thermal/thermal_zone0/temp", 10, 0 },
+	{ ram_used,        "󰍛 %s | ", NULL},
+	{ disk_free,       " %s | ", "/" },
 	{ datetime,        "  %s",   "%a %b %d - %R" },
 	/* { datetime, "%s | ",           "%F %T" }, */
 };
